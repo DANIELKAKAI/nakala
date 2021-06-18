@@ -1,0 +1,1 @@
+web: gunicorn nakala_site.wsgi --log-file
