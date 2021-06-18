@@ -50,7 +50,7 @@ var svg2 = d3.select("#my_dataviz2")
 
 
 //Read the data
-d3.json("http://127.0.0.1:8000/data", function(data) {
+d3.json("/data", function(data) {
     data = JSON.parse(data)
     console.log(data)
   // group the data: I want to draw one line per group
